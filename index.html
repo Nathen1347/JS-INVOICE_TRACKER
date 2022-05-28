@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="top-section">
+            <h1>Invoice Creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC</p>
+        </div>
+        <div class="bottom-section">
+            <div class="btn-wrap">
+                <button class="btn-invoice" id="wash-car">Wash Car: $10</button>
+                <button class="btn-invoice" id="mow-lawn">Mow Lawn: $20</button>
+                <button class="btn-invoice" id="pull-weeds">Pull Weeds: $30</button>
+            </div>
+            <div class="task-wrap">
+                <p>Task</p>
+                <p>Total</p>
+            </div>
+            <div class="invoice-cont">
+                <ul id="invoice-list">
+
+                </ul>
+                <ul id="cost-list">
+
+                </ul>
+            </div>
+            <div class="divider">
+                <div class="line"></div>
+            </div>
+            <div class="notes-cont">
+                <div class="notes-wrap">
+                    <p>Notes</p>
+                    <p>Total Amount</p>
+                </div>  
+                <div class="total-wrap">
+                    <p id="message"></p>
+                    <p class="total" id="total-cost">$0</p>
+                </div>
+            </div>
+            <div class="send-wrap">
+                <button class="send-btn" id="clear">Send Invoice</button>
+            </div>
+        
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
